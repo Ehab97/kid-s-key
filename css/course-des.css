@@ -1,0 +1,345 @@
+body {
+    font-family: 'Cairo', sans-serif;
+    direction: rtl;
+}
+
+
+/*header strat*/
+
+
+/*nav bar*/
+
+header .bg-light {
+    background-color: #fff!important;
+}
+
+header .pic img {
+    margin-top: -10px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+header .navbar-light .navbar-nav .nav-link {
+    color: #333333 !important;
+    margin-right: 20px;
+}
+
+header .navbar-light .navbar-nav .nav-link:hover {
+    color: #23A9E8 !important;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+    font-size: 18px;
+}
+
+
+/*background header*/
+
+header .intro {
+    background: url('../img/bg/book-reading-literature-classics-education-read.jpg') center center no-repeat;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+
+header .overlay {
+    /* background-color: #E02D6E;#23AAE8*/
+    background: -moz-linear-gradient(left, rgba(224, 45, 110, 0.5) 0%, rgba(116, 117, 180, 0.5) 52.49%, rgba(35, 170, 232, 0.5) 92.82%);
+    background: -webkit-linear-gradient(left, rgba(224, 45, 110, 0.5) 0%, rgba(116, 117, 180, 0.5) 52.49%, rgba(35, 170, 232, 0.5) 92.82%);
+    background: linear-gradient(to right, rgba(224, 45, 110, 0.5) 0%, rgba(116, 117, 180, 0.5) 52.49%, rgba(35, 170, 232, 0.5) 92.82%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='rgba(224, 45, 110, 0.5)', endColorstr='rgba(35, 170, 232, 0.5)', GradientType=0);
+    position: relative;
+    height: 100%;
+    /* Linear Gradient
+    rgba(224, 45, 110, 0.5) @ 0%
+    rgba(116, 117, 180, 0.5) @ 52.49%
+    rgba(35, 170, 232, 0.5) @ 92.82% */
+}
+
+.intro .overlay .content {
+    color: #fff;
+    padding: 100px 0;
+}
+
+.intro .overlay .content h2 {
+    margin-top: 30px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.intro .overlay .content p {
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+
+/*end header*/
+
+
+/* enroll */
+
+.enroll {
+    margin: 40px 0;
+}
+
+.enroll .content {
+    border-radius: 5px;
+    box-shadow: 0 0 25px 0 rgba(204, 204, 204, 0.5);
+}
+
+.enroll .content img {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    float: right;
+    margin-right: -15px;
+    height: 100%;
+    width: 100%;
+}
+
+.enroll .content .deatils {
+    text-align: right;
+    width: 100%;
+    padding-top: 30px;
+}
+
+.enroll .content .deatils h3 {
+    margin-bottom: 25px;
+}
+
+.enroll .content .deatils p {
+    font-size: 15px;
+    margin-left: 200px;
+}
+
+.enroll .content .btn-warning {
+    float: left;
+    margin-top: -12%;
+    margin-left: 5%;
+    color: #fff;
+    padding: 10px 30px;
+}
+
+.enroll .content .btn-warning:hover {
+    background-color: #8AC53F;
+    border-color: #8AC53F;
+}
+
+
+/*course details*/
+
+.course-det {
+    margin: 40px 0;
+}
+
+.course-det .content {
+    padding: 15px 20px;
+    contain: content;
+    margin-bottom: 40px;
+    border-radius: 5px;
+}
+
+.course-det .content .course-intro {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.course-det .content .course-intro h3 {
+    margin-bottom: 25px;
+    font-weight: 900;
+}
+
+.course-det .content .course-intro p {
+    font-size: 15px;
+    margin-bottom: 25px;
+    letter-spacing: .5px;
+    color: #464a4ed9;
+}
+
+.course-det .content .course-instr {}
+
+.course-det .content .course-instr h3 {
+    margin-top: 20px;
+    margin-bottom: 45px;
+    font-weight: 900;
+}
+
+.course-det .content .course-instr .ins {
+    float: right;
+    margin-left: 40px;
+}
+
+.course-det .content .course-instr img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.course-det .content .course-instr h6 {
+    margin-bottom: 45px;
+    color: #23A9E8;
+    font-weight: 900;
+}
+
+.course-det ul {
+    padding: 30px 2.5px 10px 2.5px;
+}
+
+.course-det ul li {
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.course-det ul li i {
+    float: left;
+    margin-left: 30%;
+}
+
+.course-det ul li span {
+    font-weight: 700;
+}
+
+.white {
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.dark {
+    background-color: #EFEFEF;
+}
+
+
+/*start footer*/
+
+.foot {
+    background: url('../img/bg/background.jpg') center center no-repeat;
+    background-size: cover;
+    padding: 40px 20px;
+}
+
+.foot .copy {
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.foot .copy p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.box-shadow {
+    box-shadow: 0 0 25px 0 rgba(204, 204, 204, 0.5);
+}
+
+
+/*media query*/
+
+
+/* Large desktop */
+
+@media (min-width: 1200px) {
+    .pdl {
+        padding-left: 0;
+    }
+    .pdr {
+        padding-right: 0;
+    }
+}
+
+
+/* Portrait tablet to landscape and desktop */
+
+@media (min-width: 768px) and (max-width: 979px) {
+    .enroll .content .btn-warning {
+        margin-top: -36%;
+    }
+    .enroll .content .deatils p {
+        font-size: 15px;
+        /* margin-left: 200px; */
+        margin-bottom: 30px;
+    }
+    .course-det .content .course-instr .ins {
+        float: right;
+        margin-left: 50px;
+    }
+    .course-det .content .course-instr img {
+        height: 120px;
+        width: 120px;
+        border-radius: 50%;
+        margin-bottom: 20px;
+    }
+    .cv {
+        width: 115%;
+    }
+    .course-det ul li i {
+        float: left;
+        margin-left: 0%;
+    }
+    .course-det ul {
+        padding: 30px 1px 10px 4px;
+    }
+}
+
+
+/* Landscape phone to portrait tablet */
+
+@media (max-width: 767px) {}
+
+
+/* Landscape phones and down */
+
+@media (max-width: 480px) {
+    .enroll .content {
+        font-weight: bolder;
+        margin: 0;
+        background: url(../img/child/2.jpg) center center no-repeat;
+        background-size: cover;
+        padding: 20px 10px;
+        color: #000;
+        opacity: 0.75;
+        filter: alpha(opacity=75);
+        text-align: center;
+    }
+    .enroll .content img {
+        display: none;
+    }
+    .enroll .content .deatils {
+        text-align: center;
+        width: 100%;
+        padding-top: 15px;
+    }
+    .enroll .content .deatils h3 {
+        margin-bottom: 25px;
+        text-align: center;
+    }
+    .enroll .content .deatils p {
+        font-size: 15px;
+        margin-left: 0;
+    }
+    .enroll .content .btn-warning {
+        float: inherit;
+        margin-top: 20px;
+        margin-left: 0;
+        color: #fff;
+        padding: 10px 30px;
+    }
+    .course-det .content .course-instr {
+        text-align: center;
+    }
+    .course-det .content .course-instr .ins {
+        text-align: center;
+        float: none;
+        margin: 0 auto;
+    }
+    .cv {
+        font-size: 25px;
+    }
+}

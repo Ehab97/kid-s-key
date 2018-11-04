@@ -1,0 +1,376 @@
+body {
+    font-family: 'Cairo', sans-serif;
+    direction: rtl;
+    background-color: #E5E5E5;
+}
+
+
+/*header strat*/
+
+
+/*nav bar*/
+
+header .bg-light {
+    background-color: #fff!important;
+}
+
+header .pic img {
+    margin-top: -10px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+header .navbar-light .navbar-nav .nav-link {
+    color: #333333 !important;
+    margin-right: 20px;
+}
+
+header .navbar-light .navbar-nav .nav-link:hover {
+    color: #23A9E8 !important;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+    font-size: 18px;
+}
+
+
+/*background header*/
+
+header .intro {
+    background: url('../img/bg/book-reading-literature-classics-education-read.jpg') center center no-repeat;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+
+header .overlay {
+    /* background-color: #E02D6E;#23AAE8*/
+    background: -moz-linear-gradient(left, rgba(224, 45, 110, 0.5) 0%, rgba(116, 117, 180, 0.5) 52.49%, rgba(35, 170, 232, 0.5) 92.82%);
+    background: -webkit-linear-gradient(left, rgba(224, 45, 110, 0.5) 0%, rgba(116, 117, 180, 0.5) 52.49%, rgba(35, 170, 232, 0.5) 92.82%);
+    background: linear-gradient(to right, rgba(224, 45, 110, 0.5) 0%, rgba(116, 117, 180, 0.5) 52.49%, rgba(35, 170, 232, 0.5) 92.82%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='rgba(224, 45, 110, 0.5)', endColorstr='rgba(35, 170, 232, 0.5)', GradientType=0);
+    position: relative;
+    height: 100%;
+    /* Linear Gradient
+    rgba(224, 45, 110, 0.5) @ 0%
+    rgba(116, 117, 180, 0.5) @ 52.49%
+    rgba(35, 170, 232, 0.5) @ 92.82% */
+}
+
+.intro .overlay .content {
+    color: #fff;
+    padding: 100px 0;
+}
+
+.intro .overlay .content h2 {
+    margin-top: 30px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.intro .overlay .content p {
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+
+/*end header*/
+
+
+/*accordian*/
+
+.ac {
+    color: #23A9E8 !important;
+}
+
+.subj {
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #EFEFEF;
+    border-radius: 5px;
+    color: #fff;
+    padding: 30px 20px;
+}
+
+.subj .btn-warning {
+    float: left;
+    background-color: #FFCA00;
+    border-color: #FFCA00;
+    color: #fff;
+    padding: 10px 30px;
+}
+
+.subj .btn-warning:hover {
+    background-color: #8AC53F;
+    border: #8AC53F;
+}
+
+.subj .deatils {
+    width: 50%;
+    float: right;
+}
+
+.subj .deatils h4 {
+    color: #000;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.subj .deatils span {
+    color: #707070;
+    font-weight: 600;
+}
+
+.accordion-body__contents {
+    background-color: #fff;
+}
+
+.accordion {
+    font-size: 1rem;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+.accordion-header,
+.accordion-body {
+    background: white;
+}
+
+.accordion-header {
+    padding: 1.5em 1.5em;
+    background: #23A9E8;
+    text-transform: uppercase;
+    color: white;
+    cursor: pointer;
+    font-size: .8em;
+    letter-spacing: .1em;
+    transition: all .3s;
+}
+
+.accordion-header:hover {
+    background: #23A9E8;
+    position: relative;
+    z-index: 5;
+}
+
+.accordion-body {
+    background: #fcfcfc;
+    color: #3f3c3c;
+    display: none;
+}
+
+.accordion-body__contents {
+    padding: 1.5em 1.5em;
+    font-size: .85em;
+}
+
+.accordion__item.active:last-child .accordion-header {
+    border-radius: none;
+}
+
+.accordion:first-child>.accordion__item>.accordion-header {
+    border-bottom: 1px solid transparent;
+}
+
+.accordion i {
+    float: left;
+}
+
+.s1,
+.s2,
+.s3,
+.s4,
+.s5,
+.s6 {
+    display: none;
+    color: #FFCA00;
+}
+
+.accordion__item.active .accordion-header {
+    background: #23A9E8;
+}
+
+.accordion__item .accordion__item .accordion-header {
+    background: #f1f1f1;
+    color: black;
+}
+
+@media screen and (max-width: 1000px) {
+    body {
+        padding: 1em;
+    }
+    .accordion {
+        width: 100%;
+    }
+}
+
+
+/*subjects*/
+
+.subjects h2 {
+    width: 50%;
+    float: right;
+}
+
+.subjects .btn-primary {
+    cursor: pointer;
+    background-color: #23A9E8;
+    border-color: #23A9E8;
+    float: left;
+}
+
+.subjects .column {
+    background-color: #fff;
+    padding: 10px 5px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.subjects .column span {
+    margin-top: 5px;
+    border-radius: 5px;
+    margin-left: 15px;
+    float: right;
+    background: #E5E5E5;
+    padding: 3px 10px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #23A9E8;
+}
+
+.subjects .column h3 {
+    float: right;
+    width: 75%;
+    font-weight: 600;
+    color: #23A9E8;
+    margin-bottom: 0;
+}
+
+.subjects .column .btn-warning {
+    float: right;
+    color: #fff;
+    margin-left: 10px;
+    padding: 5px 30px;
+    background-color: #FFCA00;
+    border-color: #FFCA00;
+}
+
+.subjects .column .btn-danger {
+    float: right;
+    color: #fff;
+    margin-left: 10px;
+    padding: 5px 30px;
+    background-color: #E02D6E;
+    border-color: #E02D6E;
+}
+
+
+/*start footer*/
+
+.foot {
+    background: url('../img/bg/background.jpg') center center no-repeat;
+    background-size: cover;
+    padding: 40px 20px;
+
+}
+
+.foot .copy {
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.foot .copy p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+/*media query*/
+
+
+/* Large desktop */
+
+@media (min-width: 1200px) {}
+
+
+/* Portrait tablet to landscape and desktop */
+
+@media (min-width: 768px) and (max-width: 979px) {
+    body {
+        padding: 0
+    }
+    .subjects .column h3 {
+        float: right;
+        width: 65%;
+        font-weight: 600;
+        color: #23A9E8;
+        margin-bottom: 0;
+    }
+}
+
+
+/* Landscape phone to portrait tablet */
+
+@media (max-width: 767px) {}
+
+
+/* Landscape phones and down */
+
+@media (max-width: 480px) {
+    .subjects .column h3 {
+        width: 100%;
+        font-weight: 600;
+        color: #23A9E8;
+        margin-bottom: 25px;
+        text-align: center;
+    }
+    .subjects .column span {
+        margin-top: 5px;
+        border-radius: 5px;
+        margin-left: 15px;
+        float: unset;
+        background: #E5E5E5;
+        padding: 0px 10px;
+        font-size: 20px;
+        font-weight: 700;
+        color: #23A9E8;
+    }
+    .subjects .column .btn-warning {
+        width: 50%;
+        margin: 0 auto;
+        color: #fff;
+        float: unset;
+        margin: 0 auto;
+        text-align: center;
+        margin-right: 25%;
+        margin-bottom: 15px;
+        padding: 5px 30px;
+        background-color: #FFCA00;
+        border-color: #FFCA00;
+    }
+    .subjects .column .btn-danger {
+        width: 50%;
+        margin: 0 auto;
+        color: #fff;
+        float: unset;
+        margin: 0 auto;
+        text-align: center;
+        margin-right: 25%;
+        margin-bottom: 15px;
+        padding: 5px 30px;
+        background-color: #E02D6E;
+        border-color: #E02D6E;
+    }
+    body {
+        padding: 0;
+    }
+}

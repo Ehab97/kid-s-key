@@ -1,0 +1,184 @@
+body {
+    font-family: 'Cairo', sans-serif;
+    direction: rtl;
+}
+
+
+/*header strat*/
+
+
+/*nav bar*/
+
+header .bg-light {
+    background-color: #fff!important;
+}
+
+header .pic img {
+    margin-top: -10px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+header .navbar-light .navbar-nav .nav-link {
+    color: #333333 !important;
+    margin-right: 20px;
+}
+
+header .navbar-light .navbar-nav .nav-link:hover {
+    color: #23A9E8 !important;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+    font-size: 18px;
+}
+
+
+/*background header*/
+
+header .intro {
+    background: url('../img/bg/book-reading-literature-classics-education-read.jpg') center center no-repeat;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+
+header .overlay {
+    /* background-color: #E02D6E;#23AAE8*/
+    background: -moz-linear-gradient(left, rgba(224, 45, 110, 0.5) 0%, rgba(116, 117, 180, 0.5) 52.49%, rgba(35, 170, 232, 0.5) 92.82%);
+    background: -webkit-linear-gradient(left, rgba(224, 45, 110, 0.5) 0%, rgba(116, 117, 180, 0.5) 52.49%, rgba(35, 170, 232, 0.5) 92.82%);
+    background: linear-gradient(to right, rgba(224, 45, 110, 0.5) 0%, rgba(116, 117, 180, 0.5) 52.49%, rgba(35, 170, 232, 0.5) 92.82%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='rgba(224, 45, 110, 0.5)', endColorstr='rgba(35, 170, 232, 0.5)', GradientType=0);
+    position: relative;
+    height: 100%;
+    /* Linear Gradient
+    rgba(224, 45, 110, 0.5) @ 0%
+    rgba(116, 117, 180, 0.5) @ 52.49%
+    rgba(35, 170, 232, 0.5) @ 92.82% */
+}
+
+.intro .overlay .content {
+    color: #fff;
+    padding: 100px 0;
+}
+
+.intro .overlay .content h2 {
+    margin-top: 30px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.intro .overlay .content p {
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+
+/*end header*/
+
+.profile .pic {
+    margin: 0 auto;
+    margin-top: -100px;
+    position: relative;
+}
+
+.profile .pic img {
+    height: auto;
+    width: auto;
+    border-radius: 50%;
+}
+
+.profile h5 {
+    font-weight: 700;
+    margin: 30px 0;
+}
+
+.subjects {
+    border-right: 1px solid #ddd;
+    /* padding: 20px 60px; */
+    padding: 70px 50px 70px 80px;
+}
+
+.subjects .tickts {
+    padding: 20px;
+    text-align: center;
+    width: 90%;
+    margin-bottom: 25px;
+    box-shadow: 0 0 25px 0 rgba(204, 204, 204, 0.5);
+    border-radius: 5px;
+}
+
+.subjects h2 {
+    font-weight: 700;
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+
+.subjects .details {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+/*start footer*/
+
+.foot {
+    background: url('../img/bg/background.jpg') center center no-repeat;
+    background-size: cover;
+    padding: 40px 20px;
+}
+
+.foot .copy {
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.foot .copy p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+/*media query*/
+
+
+/* Large desktop */
+
+@media (min-width: 1200px) {}
+
+
+/* Portrait tablet to landscape and desktop */
+
+@media (min-width: 768px) and (max-width: 979px) {
+    .profile .pic {
+        margin: 0 auto;
+        margin-top: -60px;
+        position: relative;
+    }
+    .profile .pic img {
+        /* width: 167px; */
+        width: auto;
+        height: auto;
+        border-radius: 50%;
+    }
+}
+
+
+/* Landscape phone to portrait tablet */
+
+@media (max-width: 767px) {}
+
+
+/* Landscape phones and down */
+
+@media (max-width: 480px) {
+    .subjects {
+        border: none;
+    }
+}

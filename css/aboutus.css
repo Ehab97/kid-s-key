@@ -1,0 +1,238 @@
+body {
+    font-family: 'Cairo', sans-serif;
+    direction: rtl;
+}
+
+
+/*header strat*/
+
+
+/*nav bar*/
+
+header .bg-light {
+    background-color: #fff!important;
+}
+
+header .pic img {
+    margin-top: -10px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+header .navbar-light .navbar-nav .nav-link {
+    color: #333333 !important;
+    margin-right: 20px;
+}
+
+header .navbar-light .navbar-nav .nav-link:hover {
+    color: #23A9E8 !important;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+    font-size: 18px;
+}
+
+
+/*background header*/
+
+header .intro {
+    background: url('../img/bg/book-reading-literature-classics-education-read.jpg') center center no-repeat;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+
+header .overlay {
+    /* background-color: #E02D6E;#23AAE8*/
+    background: -moz-linear-gradient(left, rgba(224, 45, 110, 0.5) 0%, rgba(116, 117, 180, 0.5) 52.49%, rgba(35, 170, 232, 0.5) 92.82%);
+    background: -webkit-linear-gradient(left, rgba(224, 45, 110, 0.5) 0%, rgba(116, 117, 180, 0.5) 52.49%, rgba(35, 170, 232, 0.5) 92.82%);
+    background: linear-gradient(to right, rgba(224, 45, 110, 0.5) 0%, rgba(116, 117, 180, 0.5) 52.49%, rgba(35, 170, 232, 0.5) 92.82%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='rgba(224, 45, 110, 0.5)', endColorstr='rgba(35, 170, 232, 0.5)', GradientType=0);
+    position: relative;
+    height: 100%;
+    /* Linear Gradient
+    rgba(224, 45, 110, 0.5) @ 0%
+    rgba(116, 117, 180, 0.5) @ 52.49%
+    rgba(35, 170, 232, 0.5) @ 92.82% */
+}
+
+.intro .overlay .content {
+    color: #fff;
+    padding: 100px 0;
+}
+
+.intro .overlay .content h2 {
+    margin-top: 30px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.intro .overlay .content p {
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+
+/*end header*/
+
+
+/* bref section */
+
+.bref {
+    margin: 40px 0;
+    padding: 40px 0;
+}
+
+.bref .content img {
+    margin-bottom: 30px;
+}
+
+.bref p {
+    font-size: 17px;
+    letter-spacing: .5px;
+    margin-bottom: 2rem;
+    color: #666666;
+    margin-bottom: 0;
+}
+
+
+/* start team section */
+
+.team {
+    padding: 40px 0;
+    margin: 40px 0;
+    position: relative;
+}
+
+.team .h1 {
+    margin-bottom: 80px;
+}
+
+.team .c {
+    margin-bottom: 50px;
+    background: url('../img/testimonial/avatar_g2.jpg') center center no-repeat;
+    border-radius: 50%;
+    padding: 0;
+    height: 250px;
+    /* width: 250px; */
+    background-size: cover;
+    /* contain: content; */
+}
+
+.team .c .overlay {
+    display: none;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    right: 5%;
+    bottom: 5%;
+    background-color: #20acea8c;
+    padding: 100px 0 0 0;
+    text-align: center;
+    font-size: 20px;
+    color: #FFF;
+    border-radius: 50%;
+    font-weight: bold;
+}
+
+.team .c:hover {
+    box-shadow: inset 1px 0px 1px 0px #e1e1e1c7;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.team .c:hover .overlay {
+    display: block;
+}
+
+
+/* servicse start */
+
+.services {
+    background-color: #EEEEEE;
+    padding: 40px 0;
+}
+
+
+/*start footer*/
+
+.foot {
+    background: url('../img/bg/background.jpg') center center no-repeat;
+    background-size: cover;
+    padding: 40px 20px;
+}
+
+.foot .copy {
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.foot .copy p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+/*media query*/
+
+
+/* Large desktop */
+
+@media (min-width: 1200px) {
+    .fuck {
+        margin-top: 60px;
+        font-weight: 600;
+    }
+}
+
+
+/* Portrait tablet to landscape and desktop */
+
+@media (min-width: 768px) and (max-width: 979px) {
+    .team .c .overlay {
+        padding: 55px 0 0 0;
+    }
+    .team .c {
+        height: 160px;
+        margin-bottom: 20px;
+    }
+    .fuck {
+        margin-top: 30px;
+    }
+}
+
+
+/* Landscape phone to portrait tablet */
+
+@media (max-width: 767px) {}
+
+
+/* Landscape phones and down */
+
+@media (max-width: 480px) {
+    .team .c .overlay {
+        padding: 55px 0 0 0;
+    }
+    .team .c {
+        width: 55%;
+        margin: 0 auto;
+        margin-bottom: 10%;
+        height: 170px;
+    }
+}

@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="ar">
+
+<head>
+    <!-- Required meta tags -->
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/hover.css" media="all">
+    <link rel="stylesheet" href="css/jquery.schedule.css">
+    <link rel="stylesheet" href="css/jquery.schedule-demo.css">
+    <link rel="stylesheet" href="css/schdule.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link href="https://fonts.googleapis.com/css?family=Cairo" rel="stylesheet">
+    <link rel="shortcut icon" href="img/favicon/logo.png">
+    <title>schdule Edit</title>
+    <style>
+        .btn-warning {
+            margin-bottom: 40px;
+            color: #fff;
+            background-color: #ffc107;
+            border-color: #ffc107;
+            padding: 10px 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- start header -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="home.html">
+                    <img src="img/favicon/logo.png" alt="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav  mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="aboutus.html">من نحن
+                                </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contactus.html">التواصل معانا</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Lesson.html" style="color: #23A9E8 !important;">الدرس</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Freelance.html">الكورسات الاضافيه</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="profile.html">
+                                <div class="pic">
+                                    <img src="img/child/pexels-photo-261895.jpeg" alt="child">
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="intro text-center">
+            <div class="overlay">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="content">
+                                <h2>
+                                    الجدول</h2>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- End header -->
+    <!-- satrt scdule today -->
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12" style="margin-top: 40px;">
+                <h2>
+                    جدول اليوم
+                </h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 p5">
+                <div class="ticket">
+                    <img src="img/favicon/1.png" class="img-fluid" alt="children">
+                    <div class="v">
+                        <h5>اسم الماده</h5>
+                        <h6>اسم الدرس</h6>
+                        <span>10.30 am</span>
+                    </div>
+                </div>
+            </div>
+            <!--end row-->
+            <div class="col-md-4 p5">
+                <div class="ticket">
+                    <img src="img/favicon/1.png" class="img-fluid" alt="children">
+                    <div class="v">
+                        <h5>اسم الماده</h5>
+                        <h6>اسم الدرس</h6>
+                        <span>10.30 am</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 p5">
+                <div class="ticket">
+                    <img src="img/favicon/1.png" class="img-fluid" alt="children">
+                    <div class="v">
+                        <h5>اسم الماده</h5>
+                        <h6>اسم الدرس</h6>
+                        <span>10.30 am</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- start schdule -->
+    <section class="schduler">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="row">
+                        <div class="col-xs-12" style="margin-top: 40px;    margin-right: 20px;">
+                            <h2>
+                                الجدول
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="content">
+                                <!-- start -->
+
+                                <div id="schedule" class="jqs-demo mb-3 jqs jqs-mode-edit" contenteditable="true"></div>
+                                <!-- <input type="button" value="Export" id="export" /> -->
+                                <!-- <textarea id="result"></textarea> -->
+                                <!-- end -->
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- <div id="calendar"></div> -->
+                    <div class="row text-center">
+                        <div class="col-sm-12 btc">
+                            <a name="" id="export" class="btn btn-warning" role="button">حفظ</a>
+                            <!-- <a name="" id="saveButton" class="btn btn-warning" href="#" role="button"> حفظ</a> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- start footer -->
+    <footer class="foot">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="copy text-center">
+                        <p>ALL Rights Reserverd &copy;2018</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End footer -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/counterUp.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- <script src="js/moment-with-locales.min.js"></script>
+    <script src="js/jquery.touchSwipe.min.js"></script>
+    <script src="js/bootstrap-datetimepicker.min.js"></script>
+    <script src="js/jquery-calendar.min.js"></script> -->
+    <script src="js/jquery.schedule.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

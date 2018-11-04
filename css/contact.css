@@ -1,0 +1,210 @@
+    body {
+        font-family: 'Cairo', sans-serif;
+        direction: rtl;
+    }
+    /*header strat*/
+    /*nav bar*/
+    
+    header .bg-light {
+        background-color: #fff!important;
+    }
+    
+    header .pic img {
+        margin-top: -10px;
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+    }
+    
+    header .navbar-light .navbar-nav .nav-link {
+        color: #333333 !important;
+        margin-right: 20px;
+    }
+    
+    header .navbar-light .navbar-nav .nav-link:hover {
+        color: #23A9E8 !important;
+        -webkit-transform: perspective(1px) translateZ(0);
+        transform: perspective(1px) translateZ(0);
+        -webkit-transition-duration: 0.5s;
+        transition-duration: 0.5s;
+        -webkit-transition-property: transform;
+        transition-property: transform;
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+        transition: all 0.5s ease-in-out;
+        font-size: 18px;
+    }
+    /*background header*/
+    
+    header .intro {
+        background: url('../img/bg/book-reading-literature-classics-education-read.jpg') center center no-repeat;
+        -webkit-background-size: cover;
+        -o-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+    }
+    
+    header .overlay {
+        /* background-color: #E02D6E;#23AAE8*/
+        background: -moz-linear-gradient(left, rgba(224, 45, 110, 0.5) 0%, rgba(116, 117, 180, 0.5) 52.49%, rgba(35, 170, 232, 0.5) 92.82%);
+        background: -webkit-linear-gradient(left, rgba(224, 45, 110, 0.5) 0%, rgba(116, 117, 180, 0.5) 52.49%, rgba(35, 170, 232, 0.5) 92.82%);
+        background: linear-gradient(to right, rgba(224, 45, 110, 0.5) 0%, rgba(116, 117, 180, 0.5) 52.49%, rgba(35, 170, 232, 0.5) 92.82%);
+        filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='rgba(224, 45, 110, 0.5)', endColorstr='rgba(35, 170, 232, 0.5)', GradientType=0);
+        position: relative;
+        height: 100%;
+        /* Linear Gradient
+    rgba(224, 45, 110, 0.5) @ 0%
+    rgba(116, 117, 180, 0.5) @ 52.49%
+    rgba(35, 170, 232, 0.5) @ 92.82% */
+    }
+    
+    .intro .overlay .content {
+        color: #fff;
+        padding: 100px 0;
+    }
+    
+    .intro .overlay .content h2 {
+        margin-top: 30px;
+        letter-spacing: 1px;
+        font-weight: bold;
+    }
+    
+    .intro .overlay .content p {
+        margin-top: 40px;
+        font-size: 20px;
+    }
+    /*end header*/
+    /*start contact*/
+    
+    .conatact-us {
+        margin: 40px 0;
+    }
+    
+    .conatact-us .cards {
+        background-color: #23A9E8;
+        color: #fff;
+        display: inline-block;
+        width: 100%;
+        padding: 10px 10px 10px 0px;
+        margin-bottom: 20px;
+    }
+    
+    .conatact-us .cards i {
+        float: right;
+    }
+    
+    .conatact-us .cards p {
+        margin-top: 10px;
+    }
+    /*form*/
+    
+    .conatact-us form {
+        direction: rtl;
+        border: 1px solid #fff;
+        border-radius: 5px;
+        padding: 40px 25px 15px 25px;
+        box-shadow: 0 0 25px 0 rgba(204, 204, 204, 0.5);
+        /* margin: 0 auto; */
+        width: 85%;
+        margin-top: 35px;
+    }
+    
+    .conatact-us form .form-control {
+        margin-bottom: 15px;
+        padding: .7rem 1.2rem;
+        font-size: .99999rem;
+        line-height: 1.25;
+        color: #666666;
+        background-color: #E5E5E5;
+    }
+    
+    .conatact-us form .form-group {
+        text-align: center;
+    }
+    
+    .conatact-us form .form-group .btn-primary {
+        width: 100%;
+        margin-bottom: 10px;
+        color: #fff;
+        background-color: #20ACEA;
+        border-color: #20ACEA;
+    }
+    
+    .conatact-us form p {
+        text-align: center;
+        margin-bottom: -5px;
+    }
+    
+    .conatact-us form .form-group .btn-outline-primary {
+        margin-top: 20px;
+        width: 100%;
+        color: #20ACEA;
+        background-color: transparent;
+        background-image: none;
+        border-color: #20ACEA;
+    }
+    
+    .map {
+        margin-top: 35px;
+    }
+    
+    .map iframe {
+        width: 100%;
+        height: 420px;
+        ;
+    }
+    /* .conatact-us .card {
+    background-color: #23A9E8;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.conatact-us .card .right {
+    float: right;
+}
+
+.conatact-us .card .left {
+    float: left;
+    margin: 15px 10px 15px 20px;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+}
+
+.conatact-us .col-md-4:nth-child(2) {
+    text-align: left;
+} */
+    /*start footer*/
+    
+    .foot {
+        background: url('../img/bg/background.jpg') center center no-repeat;
+        background-size: cover;
+        padding: 40px 20px;
+    }
+    
+    .foot .copy {
+        color: #fff;
+        text-transform: capitalize;
+    }
+    
+    .foot .copy p {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    /*media query*/
+    /* Large desktop */
+    
+    @media (min-width: 1200px) {}
+    /* Portrait tablet to landscape and desktop */
+    
+    @media (min-width: 768px) and (max-width: 979px) {}
+    /* Landscape phone to portrait tablet */
+    
+    @media (max-width: 767px) {}
+    /* Landscape phones and down */
+    
+    @media (max-width: 480px) {
+        .conatact-us form {
+            width: 100%;
+            margin-bottom: 50px;
+        }
+    }

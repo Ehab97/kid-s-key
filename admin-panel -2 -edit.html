@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="ar">
+
+<head>
+    <!-- Required meta tags -->
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/hover.css" media="all">
+    <link rel="stylesheet" href="css/jquery-ui.min.css">
+    <link rel="stylesheet" href="css/admin-panel-4.css">
+    <link href="https://fonts.googleapis.com/css?family=Cairo" rel="stylesheet">
+    <link rel="shortcut icon" href="img/favicon/logo.png">
+    <!-- <link rel="apple-touch-icon" sizes="144x144" type="image/x-icon" href="img/favicon/cropped-fav-286x286.png"> -->
+    <title>admin panel Edit </title>
+</head>
+
+<body>
+    <!-- start header -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="home.html">
+                    <img src="img/favicon/logo.png" alt="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav  mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="admin-panel.html" id="a3">المستخدمين</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link ac" href="admin-panel -2.html" id="a2" style="color: #23A9E8 !important;">المواد</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="admin-panel - 3.html" id="a1"> الكرسات الاضافيه</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- End header -->
+    <!-- start content  -->
+    <section>
+        <div class="container" id='start'>
+            <div class="row">
+                <div class="col-sm-12">
+                    <h2>اضافة او تعديل درس</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <form method="POST" style="margin:40px 0;">
+                        <div class="form-group" style="margin:40px 0;">
+                            <label for="coursename">اسم الكورس</label>
+                            <input type="text" class="form-control" id="coursename" name="courseName">
+                        </div>
+                        <div class="form-group" style="margin:40px 0;">
+                            <label for="linkvideo">  لينك فيديو الدرس</label>
+                            <input type="text" class="form-control" id="linkvideo" name="courseName">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="lessonsummary"> ملخص الدرس</label>
+                            <textarea class="form-control" id="lessonsummary" rows="3"></textarea>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <h2 style="    margin-bottom: 30px;">اسالة الدرس</h2>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="questions">
+                                <h6 style="width: 5%;
+                                float: right;">
+                                    الاسئله
+                                </h6>
+
+                                <div class="dropdown show">
+                                    <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        اختر
+                                    </a>
+
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                        <a class="dropdown-item" href="#">اختر</a>
+                                        <a class="dropdown-item" href="#">صح وخطأ </a>
+                                        <a class="dropdown-item" href="#"> تعبير </a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <label class="mrt mrtl" style="font-weight: 600;width: 80%;float:  right;"> عدد المدرسين
+                                <div class="form-group" style="float:left;width:60%;">
+                                    <input type="text" class="form-control put" id="num" name="courseName" placeholder="2">
+                                </div>
+                            </label>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!--end row-->
+            <div class="row mrtl">
+                <div class="col-sm-12">
+                    <h2 style="margin-bottom: 30px;">فيديوهات الكورس</h2>
+                    <!-- <h6 style="font-weight: 600;"> عدد فيديوهات <span id="counter">3</span>
+                    </h6> -->
+                    <label class="mrt mrtl width100 width40" style="font-weight: 600;float:  right;"> عدد الفيديوهات
+                        <div class="form-group" style="float:left;width:60%;">
+                            <input type="text" class="form-control put2" id="linkvideo" name="courseName" placeholder="2">
+                        </div>
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div id="dom" class="v" style="background-color: #E5E5E5;    margin: 20px 0;padding-bottom: 5px;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <!-- <h6>عنوان السوال</h6> -->
+                        <form method="POST" class="second">
+                            <div class="form-group">
+                                <label for="exampleFormControlTextarea1">عنوان السوال </label>
+                                <textarea style="background-color: #fff;    border-radius: 5px;" class="form-control" id="exampleFormControlTextarea1" rows="8"></textarea>
+                            </div>
+                        </form>
+
+                    </div>
+                    <div class="col-md-6">
+                        <form method="POST" class="second">
+                            <label style="    margin-bottom: 30px;font-size: 22px;font-weight: 600;">عنوان السوال </label>
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="linkvideo" name="courseName"><span id="counter3" class="fa fa-check"></span>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="linkvideo" name="courseName"><span id="counter4" class="fa fa-check"></span>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="linkvideo" name="courseName"><span id="counter3" class="fa fa-check"></span>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="v" style="background-color: #E5E5E5;    margin: 20px 0;padding-bottom: 5px;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <!-- <h6>عنوان السوال</h6> -->
+                        <form method="POST" class="second">
+                            <div class="form-group">
+                                <label for="exampleFormControlTextarea1">عنوان السوال </label>
+                                <textarea style="background-color: #fff;    border-radius: 5px;" class="form-control" id="exampleFormControlTextarea1" rows="8"></textarea>
+                            </div>
+                        </form>
+
+                    </div>
+                    <div class="col-md-6">
+                        <form method="POST" class="second">
+                            <label style="    margin-bottom: 30px;font-size: 22px;font-weight: 600;">عنوان السوال </label>
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="linkvideo" name="courseName"><span id="counter3" class="fa fa-check"></span>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="linkvideo" name="courseName"><span id="counter4" class="fa fa-check"></span>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="linkvideo" name="courseName"><span id="counter3" class="fa fa-check"></span>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- end content -->
+    <!-- start footer -->
+    <footer class="foot">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="copy text-center">
+                        <p>ALL Rights Reserverd &copy;2018</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End footer -->
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/counterUp.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,346 @@
+    body {
+        font-family: 'Cairo', sans-serif;
+        direction: rtl;
+    }
+    /*header strat*/
+    
+    .schduler .content {
+        margin: 50px 0;
+    }
+    /*nav bar*/
+    
+    header .bg-light {
+        background-color: #fff!important;
+    }
+    
+    header .pic img {
+        margin-top: -10px;
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+    }
+    
+    header .navbar-light .navbar-nav .nav-link {
+        color: #333333 !important;
+        margin-right: 20px;
+    }
+    
+    header .navbar-light .navbar-nav .nav-link:hover {
+        color: #23A9E8 !important;
+        -webkit-transform: perspective(1px) translateZ(0);
+        transform: perspective(1px) translateZ(0);
+        -webkit-transition-duration: 0.5s;
+        transition-duration: 0.5s;
+        -webkit-transition-property: transform;
+        transition-property: transform;
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+        transition: all 0.5s ease-in-out;
+        font-size: 18px;
+    }
+    /*background header*/
+    
+    header .intro {
+        background: url('../img/bg/book-reading-literature-classics-education-read.jpg') center center no-repeat;
+        -webkit-background-size: cover;
+        -o-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+    }
+    
+    header .overlay {
+        /* background-color: #E02D6E;#23AAE8*/
+        background: -moz-linear-gradient(left, rgba(224, 45, 110, 0.5) 0%, rgba(116, 117, 180, 0.5) 52.49%, rgba(35, 170, 232, 0.5) 92.82%);
+        background: -webkit-linear-gradient(left, rgba(224, 45, 110, 0.5) 0%, rgba(116, 117, 180, 0.5) 52.49%, rgba(35, 170, 232, 0.5) 92.82%);
+        background: linear-gradient(to right, rgba(224, 45, 110, 0.5) 0%, rgba(116, 117, 180, 0.5) 52.49%, rgba(35, 170, 232, 0.5) 92.82%);
+        filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='rgba(224, 45, 110, 0.5)', endColorstr='rgba(35, 170, 232, 0.5)', GradientType=0);
+        position: relative;
+        height: 100%;
+        /* Linear Gradient
+    rgba(224, 45, 110, 0.5) @ 0%
+    rgba(116, 117, 180, 0.5) @ 52.49%
+    rgba(35, 170, 232, 0.5) @ 92.82% */
+    }
+    
+    .intro .overlay .content {
+        color: #fff;
+        padding: 100px 0;
+    }
+    
+    .intro .overlay .content h2 {
+        margin-top: 30px;
+        letter-spacing: 1px;
+        font-weight: bold;
+    }
+    
+    .intro .overlay .content p {
+        margin-top: 40px;
+        font-size: 20px;
+    }
+    /*end header*/
+    
+    .ticket {
+        box-shadow: 0 0 25px 0 rgba(204, 204, 204, 0.5);
+        contain: content;
+        background-color: #fff;
+        border-radius: 5px;
+    }
+    
+    .ticket img {
+        float: right;
+        width: 100px;
+        height: 100px;
+        margin: 0 auto;
+        margin-left: 15px;
+    }
+    
+    .ticket .v {
+        padding: 10px 0 10px 0;
+    }
+    
+    .ticket .v h5 {
+        font-weight: 700;
+    }
+    
+    .ticket .v h6 {
+        font-weight: 600;
+    }
+    
+    .ticket .v span {
+        color: #777;
+    }
+    
+    .schduler .con {
+        border-radius: 5px;
+        background-color: #fff;
+        box-shadow: 0 0 25px 0 rgba(204, 204, 204, 0.5);
+        padding: 0;
+        width: 105%;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    
+    .schduler .content {
+        margin: 40px 0;
+        box-shadow: 0 0 25px 0 rgba(204, 204, 204, 0.5);
+    }
+    
+    .schduler .con img {
+        float: right;
+        width: 60px;
+        height: 60px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        margin: 0 0;
+    }
+    
+    .schduler .con .deatils {
+        text-align: right;
+        width: 100%;
+    }
+    
+    .schduler .con .deatils h3 {
+        font-weight: 700;
+        font-size: 20px;
+        /* margin-top: 0px; */
+        margin-bottom: 9px;
+    }
+    
+    .schduler .con .deatils .progress {
+        width: 70%;
+    }
+    
+    .schduler .con .deatils .btn-warning {
+        float: left;
+        color: #fff;
+        padding: 10px 20px;
+        margin-top: -10%;
+    }
+    
+    .schduler .con .deatils i {
+        float: left;
+        color: #8AC53F;
+        padding: 10px 20px;
+        margin-top: -23%;
+        margin-left: -31px;
+        font-weight: 0;
+        border-radius: 27;
+    }
+    
+    .schduler .con .deatils .btn-warning:hover {
+        background-color: #8AC53F;
+        border-color: #8AC53F;
+    }
+    
+    #counter3 {
+        font-size: 30px;
+        background-color: #ddd;
+        padding: 16px 20px;
+        border-radius: 5px;
+        color: #fff;
+        float: left;
+        margin-top: -48px;
+        position: relative;
+        z-index: 2;
+        margin-left: -15px;
+        margin-bottom: 0px;
+    }
+    
+    .schduler .btc .btn-warning {
+        margin-bottom: 40px;
+        color: #fff;
+        background-color: #ffc107;
+        border-color: #ffc107;
+        padding: 10px 30px;
+    }
+    
+    .jqs-demo {
+        min-width: auto;
+        border-radius: 5px;
+    }
+    /*start footer*/
+    
+    .foot {
+        background: url('../img/bg/background.jpg') center center no-repeat;
+        background-size: cover;
+        padding: 40px 20px;
+    }
+    
+    .foot .copy {
+        color: #fff;
+        text-transform: capitalize;
+    }
+    
+    .foot .copy p {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    /*media query*/
+    /* Large desktop */
+    
+    @media (min-width: 1200px) {
+        .p0 {
+            padding-right: 0;
+            padding-left: 0;
+        }
+        .schduler .con .img-fluid {
+            max-width: 140%;
+        }
+        .p5 {
+            padding-right: 0;
+            margin-top: 40px;
+            margin-bottom: 50px;
+        }
+        .mro {
+            margin-right: 30px;
+        }
+    }
+    /* Portrait tablet to landscape and desktop */
+    
+    @media (min-width: 768px) and (max-width: 979px) {
+        .p5 {
+            padding-right: 0;
+            margin-top: 40px;
+            margin-bottom: 50px;
+        }
+        .p0 {
+            padding-right: 0;
+            padding-left: 0;
+        }
+        .schduler .con img {
+            float: right;
+            height: 60px;
+        }
+        .schduler .con .img-fluid {
+            /* width: auto; */
+        }
+        .schduler .con .deatils h3 {
+            font-size: 18px;
+            margin-top: 1px;
+            margin-bottom: 10px;
+        }
+        .schduler .con .deatils .progress {
+            width: 60%;
+        }
+        .schduler .con .deatils .btn-warning {
+            float: left;
+            color: #fff;
+            padding: 10px 10px;
+            margin-top: -13%;
+        }
+        .con .col-md-2 {
+            padding: 0;
+        }
+        .schduler .con .deatils i {
+            float: left;
+            color: #8AC53F;
+            padding: 10px 20px;
+            margin-top: -30%;
+            margin-left: -31px;
+            font-weight: 0;
+            border-radius: 27;
+        }
+    }
+    /* Landscape phone to portrait tablet */
+    
+    @media (max-width: 767px) {}
+    /* Landscape phones and down */
+    
+    @media (max-width: 480px) {
+        .schduler .col-md-5 {
+            width: 100%;
+            min-height: 1px;
+            padding-right: 15px;
+            padding-left: 15px;
+        }
+        .schduler .con {
+            margin: 30px 0 auto;
+            width: 100%;
+        }
+        .schduler .con .col-md-2 {
+            width: 30%;
+        }
+        .schduler .con .col-md-10 {
+            width: 70%;
+        }
+        .schduler .con .deatils {
+            text-align: right;
+            width: 100%;
+            padding-top: 0;
+            /* margin-left: 21px; */
+            margin-right: -25px;
+        }
+        #counter3 {
+            font-size: 30px;
+            background-color: #ddd;
+            padding: 16px 20px;
+            border-radius: 5px;
+            color: #fff;
+            float: left;
+            margin-top: -47px;
+            position: relative;
+            z-index: 2;
+            margin-left: -40px;
+            margin-bottom: 0px;
+        }
+        .schduler .con .deatils .btn-warning {
+            color: #fff;
+            padding: 10px 10px;
+            margin-top: -15%;
+            float: left;
+            margin: 0 auto;
+            margin: -16% -10% auto;
+        }
+        .p5 {
+            padding-right: 15px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        .schduler .con .deatils i {
+            float: left;
+            color: #8AC53F;
+            padding: 10px 20px;
+            margin-top: -35%;
+            margin-left: -50px;
+        }
+    }

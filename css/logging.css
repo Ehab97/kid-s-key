@@ -1,0 +1,207 @@
+    body {
+        font-family: 'Cairo', sans-serif;
+    }
+    /*start main section*/
+    
+    .main {
+        padding: 0;
+        margin: 0;
+    }
+    
+    .main .logo {
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+    
+    .main form {
+        direction: rtl;
+        border: 1px solid #fff;
+        border-radius: 5px;
+        padding: 0px 25px 15px 25px;
+        box-shadow: 0 0 25px 0 rgba(204, 204, 204, 0.5);
+        margin: 0 auto;
+        width: 60%;
+    }
+    
+    .main form .form-control {
+        margin-bottom: 15px;
+        padding: .7rem 1.2rem;
+        font-size: .99999rem;
+        line-height: 1.25;
+        color: #666666;
+        background-color: #E5E5E5;
+    }
+    
+    .main form .form-group {
+        text-align: center;
+    }
+    
+    .main form .form-group .btn-primary {
+        width: 100%;
+        margin-bottom: 10px;
+        color: #fff;
+        background-color: #20ACEA;
+        border-color: #20ACEA;
+    }
+    
+    .main form p {
+        text-align: center;
+        margin-bottom: -5px;
+    }
+    
+    .main form .form-group .btn-outline-primary {
+        margin-top: 20px;
+        width: 100%;
+        color: #20ACEA;
+        background-color: transparent;
+        background-image: none;
+        border-color: #20ACEA;
+        cursor: pointer;
+    }
+    
+    .main form .form-group a {
+        float: right;
+        margin-bottom: 20px;
+        text-decoration: none;
+        color: #20ACEA;
+    }
+    
+    .main .content {
+        background: url('../img/Login/stu.jpg') center center no-repeat;
+        background-size: cover;
+        direction: rtl;
+        height: 100%;
+        color: #fff;
+        padding: 200px 50px 100px 50px;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
+    }
+    
+    .main .content .txt p {
+        color: #f8f9fadb;
+        letter-spacing: 1.5px;
+        margin-top: 20px;
+    }
+    
+    .main .who {
+        margin-left: -27px;
+        margin-right: -27px;
+        margin-top: -1px;
+        padding-bottom: 60px;
+        border-radius: 5px;
+    }
+    
+    .main .who .l {
+        border-top-left-radius: 5px;
+        cursor: pointer;
+        float: left;
+        text-align: center;
+        width: 50%;
+        height: 100%;
+        padding: 10px;
+        color: #20ACEA;
+    }
+    
+    .main .who .r {
+        border-top-right-radius: 5px;
+        cursor: pointer;
+        float: right;
+        text-align: center;
+        width: 50%;
+        height: 100%;
+        padding: 10px;
+        color: #20ACEA;
+    }
+    
+    #p1,
+    #p2 {
+        display: none;
+    }
+    
+    .ch {
+        text-align: center;
+        width: 50%;
+        height: 100%;
+        padding: 10px;
+        color: #fff;
+        background-color: #20ACEA;
+        border-color: #20ACEA;
+    }
+    
+    .main form .h .btn-outline-primary {
+        margin-top: 10px;
+        color: #20ACEA;
+        background-color: transparent;
+        border-color: #20ACEA;
+    }
+    
+    .main form .h .btn-outline-primary:hover {
+        margin-top: 10px;
+        color: #fff;
+        background-color: #20ACEA;
+        border-color: #20ACEA;
+    }
+    /*start footer*/
+    
+    .foot {
+        background: url('../img/bg/background.jpg') center center no-repeat;
+        background-size: cover;
+        padding: 40px 20px;
+    }
+    
+    .foot .copy {
+        color: #fff;
+        text-transform: capitalize;
+    }
+    
+    .foot .copy p {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    /**/
+    
+    .mgb {
+        margin-bottom: 15px;
+    }
+    /* end main section */
+    /*media query*/
+    /* Large desktop */
+    
+    @media (min-width: 1200px) {
+        .main .col-md-6:last-child {
+            padding-right: 0;
+        }
+        .main .logo {
+            margin-right: 15px;
+        }
+    }
+    /* Portrait tablet to landscape and desktop */
+    
+    @media (min-width: 768px) and (max-width: 979px) {
+        .main .col-md-6:last-child {
+            padding-right: 0;
+        }
+        .main .logo {
+            margin-right: 10px;
+        }
+        .main form {
+            width: 100%;
+        }
+    }
+    /* Landscape phone to portrait tablet */
+    
+    @media (max-width: 767px) {}
+    /* Landscape phones and down */
+    
+    @media (max-width: 480px) {
+        .main form {
+            width: 100%;
+            margin-bottom: 50px;
+        }
+        .logo img {
+            margin-right: 15px;
+        }
+        .pzerlr {
+            padding-right: 0;
+            padding-left: 0;
+        }
+    }

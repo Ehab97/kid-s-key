@@ -1,0 +1,443 @@
+body {
+    font-family: 'Cairo', sans-serif;
+    direction: rtl;
+}
+
+
+/*header strat*/
+
+header {
+    background: center center no-repeat;
+    background-color: #20ACEA;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+
+header .overlay {
+    position: relative;
+    background: url('../img/bg/pattern-2.png');
+    height: 100%;
+}
+
+
+/*nav bar*/
+
+header .overlay .bg-light {
+    background-color: #f8f9fa00!important;
+}
+
+header .overlay .navbar-light .navbar-nav .nav-link {
+    color: #fff !important;
+    margin-right: 25px;
+}
+
+header .overlay .navbar-light .navbar-nav .nav-link:hover {
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.6s;
+    transition-duration: 0.6s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: all 0.6s ease-in-out;
+    font-size: 19px;
+}
+
+
+/*background header*/
+
+header .overlay .content {
+    color: #fff;
+    padding-top: 100px;
+    padding-left: 50px;
+}
+
+header .overlay .content p {
+    font-size: 22px;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+}
+
+header .overlay .content .btn-success {
+    width: 40%;
+    cursor: pointer;
+    padding: 15px 0;
+    margin-bottom: 35px;
+}
+
+
+/*mobile section*/
+
+.mobile {
+    margin-top: 40px;
+    margin-bottom: -120px;
+}
+
+.mobile .content {
+    margin-top: 40px;
+}
+
+.mobile .content h3 {
+    margin-bottom: 30px;
+}
+
+.mobile .content p {
+    font-size: 16px;
+    margin-bottom: 35px;
+}
+
+.mobile .content .btn-dark {
+    margin-bottom: 50px;
+    padding: 10px 0;
+    margin-left: 15px;
+    width: 30%;
+}
+
+.mobile .m img {
+    border-radius: 30px;
+}
+
+.mobile .first {
+    position: absolute;
+    right: 5%;
+    top: 30%;
+}
+
+.mobile .scond {
+    position: static;
+}
+
+
+/*how-to-use section*/
+
+.how-to-use {
+    background: center center no-repeat;
+    background-color: #77D1BD;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    position: relative;
+}
+
+.how-to-use .overlay {
+    background: url('../img/bg/pattern-2.png');
+    height: 100%;
+    padding: 40px 0;
+    color: #fff;
+    text-align: center
+}
+
+.how-to-use .overlay h2 {
+    margin-bottom: 25px;
+}
+
+.how-to-use .overlay p {
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+}
+
+.how-to-use .overlay video {
+    width: 100%;
+}
+
+
+/*free lancer section*/
+
+.free {
+    padding: 40px 0;
+}
+
+.free .head h2 {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.free .head p {
+    font-size: 18px;
+    color: #838383;
+    margin-bottom: 30px;
+}
+
+.free .card {
+    box-shadow: 0 0 25px 0 rgba(204, 204, 204, 0.5);
+}
+
+.free .card:hover {
+    box-shadow: inset 1px 0px 1px 0px #e1e1e1c7;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.6s;
+    transition-duration: 0.6s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: all 0.6s ease-in-out;
+}
+
+.free .card .content {
+    padding: 20px 0;
+}
+
+.free .card .content .btn-warning {
+    cursor: pointer;
+    width: 50%;
+    color: #fff;
+}
+
+.free .card .content .btn-warning:hover {
+    background-color: #8AC53F;
+    border: #8AC53F;
+}
+
+.free .bottom img {
+    background: center center no-repeat;
+    background-size: cover;
+    margin-top: -10px;
+}
+
+.free .head .btn-warning {
+    padding: 15px 0;
+    width: 25%;
+    margin-top: 40px;
+    color: #f8f9fa;
+    background-color: #ffc107;
+    border-color: #ffc107;
+    cursor: pointer;
+}
+
+.free .head .btn-warning i {
+    margin-left: 20px;
+}
+
+.free .head .btn-warning:hover {
+    background-color: #8AC53F;
+    border: #8AC53F;
+    box-shadow: inset 1px 0px 1px 0px #e1e1e1c7;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.6s;
+    transition-duration: 0.6s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: all 0.6s ease-in-out;
+}
+
+
+/*virual-assistant section*/
+
+.virual-assistant {
+    padding: 40px 0;
+}
+
+.virual-assistant .content h3 {
+    margin-bottom: 20px;
+}
+
+.virual-assistant .content p {
+    font-size: 18px;
+    color: #838383;
+}
+
+.virual-assistant .robot .r {
+    float: right;
+}
+
+.virual-assistant .robot .l {
+    background-color: #20ACEA;
+    margin-right: 133px;
+    border-radius: 15px;
+}
+
+.virual-assistant .robot .txt {
+    padding: 40px 10px;
+}
+
+.virual-assistant .triangle {
+    -o-clip-path: polygon(0 18%, 0 65%, 100% 46%);
+    -moz-clip-path: polygon(0 18%, 0 65%, 100% 46%);
+    -webkit-clip-path: polygon(0 18%, 0 65%, 100% 46%);
+    clip-path: polygon(0 18%, 0 65%, 100% 46%);
+    background-color: #20ACEA;
+    height: 35px;
+    width: 35px;
+    float: right;
+    margin-right: -37px;
+    margin-top: -65px;
+}
+
+
+/*strst testmonials section*/
+
+.testmonials {
+    background: center center no-repeat;
+    background-color: #77D1BD;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    position: relative;
+}
+
+.testmonials .overlay {
+    background: url('../img/bg/pattern-2.png');
+    height: 100%;
+    padding: 40px 0;
+    color: #fff;
+    text-align: center
+}
+
+.testmonials .overlay h2 {
+    margin: 35px 0 50px 0;
+}
+
+.testmonials .overlay .card {
+    margin-bottom: 40px;
+    padding: 0 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 25px 0 rgba(204, 204, 204, 0.5);
+}
+
+.testmonials .overlay .card .pic img {
+    height: 70px;
+    width: 70px;
+    margin-top: -30px;
+    border-radius: 50%;
+}
+
+.testmonials .overlay .card .bod {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: #000
+}
+
+.testmonials .overlay .card .bod p {
+    font-size: 20px;
+}
+
+.testmonials .overlay .card .bod span {
+    color: #868E96;
+    font-weight: bold;
+}
+
+.testmonials .overlay .card .bod span i {
+    margin-right: 10px;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.sponsor {
+    margin: 50px 0;
+    padding: 50px 0;
+    color: #20ACEA;
+}
+
+.sponsor i {
+    margin-bottom: 30px;
+}
+
+.sponsor i:hover {
+    cursor: pointer;
+    box-shadow: inset 1px 0px 1px 0px #e1e1e1c7;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.6s;
+    transition-duration: 0.6s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: all 0.6s ease-in-out;
+}
+
+
+/*start footer*/
+
+.foot {
+    background: url('../img/bg/background.jpg') center center no-repeat;
+    background-size: cover;
+    padding: 40px 20px;
+}
+
+.foot .copy {
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.foot .copy p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+/**/
+
+
+/**/
+
+.pdzero {
+    padding: 0;
+}
+
+
+/*media query*/
+
+
+/* Large desktop */
+
+@media (min-width: 1200px) {}
+
+
+/* Portrait tablet to landscape and desktop */
+
+@media (min-width: 768px) and (max-width: 979px) {}
+
+
+/* Landscape phone to portrait tablet */
+
+@media (max-width: 767px) {
+    .header .overlay .content .btn-success {
+        margin-bottom: 40px;
+    }
+}
+
+
+/* Landscape phones and down */
+
+@media (max-width: 480px) {
+    header .overlay .content .btn-success {
+        margin-bottom: 40px;
+        width: 60%;
+    }
+    .mobile {
+        margin-left: 36px;
+    }
+    .mobile .m .inner-image {
+        left: 70px;
+    }
+    .free .card {
+        margin-bottom: 30px;
+    }
+    .free .head .btn-warning {
+        width: 75%;
+        margin-bottom: 20px;
+    }
+    .virual-assistant .robot .txt {
+        padding: 0px 0px;
+    }
+    .virual-assistant .triangle {
+        margin-right: -35px;
+        margin-top: -79px
+    }
+}

@@ -1,0 +1,242 @@
+body {
+    font-family: 'Cairo', sans-serif;
+    direction: rtl;
+    background-color: #E5E5E5;
+}
+
+
+/*header strat*/
+
+
+/*nav bar*/
+
+header .bg-light {
+    background-color: #fff!important;
+}
+
+header .pic img {
+    margin-top: -10px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+header .navbar-light .navbar-nav .nav-link {
+    color: #333333 !important;
+    margin-right: 20px;
+}
+
+header .navbar-light .navbar-nav .nav-link:hover {
+    color: #23A9E8 !important;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+    font-size: 18px;
+}
+
+
+/*background header*/
+
+header .intro {
+    background: url('../img/bg/book-reading-literature-classics-education-read.jpg') center center no-repeat;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+
+header .overlay {
+    /* background-color: #E02D6E;#23AAE8*/
+    background: -moz-linear-gradient(left, rgba(224, 45, 110, 0.5) 0%, rgba(116, 117, 180, 0.5) 52.49%, rgba(35, 170, 232, 0.5) 92.82%);
+    background: -webkit-linear-gradient(left, rgba(224, 45, 110, 0.5) 0%, rgba(116, 117, 180, 0.5) 52.49%, rgba(35, 170, 232, 0.5) 92.82%);
+    background: linear-gradient(to right, rgba(224, 45, 110, 0.5) 0%, rgba(116, 117, 180, 0.5) 52.49%, rgba(35, 170, 232, 0.5) 92.82%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='rgba(224, 45, 110, 0.5)', endColorstr='rgba(35, 170, 232, 0.5)', GradientType=0);
+    position: relative;
+    height: 100%;
+    /* Linear Gradient
+    rgba(224, 45, 110, 0.5) @ 0%
+    rgba(116, 117, 180, 0.5) @ 52.49%
+    rgba(35, 170, 232, 0.5) @ 92.82% */
+}
+
+.intro .overlay .content {
+    color: #fff;
+    padding: 100px 0;
+}
+
+.intro .overlay .content h2 {
+    margin-top: 30px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.intro .overlay .content p {
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+
+/*end header*/
+
+.courses h2 {
+    width: 50%;
+    float: right;
+}
+
+.courses .btn-primary {
+    cursor: pointer;
+    background-color: #23A9E8;
+    border-color: #23A9E8;
+    float: left;
+}
+
+.courses .option {
+    background-color: #fff;
+    border-radius: 5px;
+    margin-bottom: 35px;
+}
+
+.courses .option img {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.courses .option .r {
+    float: right;
+    width: 70%;
+    padding: 20px 0;
+    margin-bottom: -6px;
+}
+
+.courses .option .r h3 {
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.courses .option .r p {
+    color: #777777;
+    font-size: 18px;
+    margin-bottom: 0;
+}
+
+.courses .option .l {
+    float: left;
+    width: 30%;
+    padding: 70px 15px 0px 15px;
+}
+
+.courses .option .l .btn-warning {
+    width: 100%;
+    margin-bottom: 20px;
+    color: #fff;
+    background-color: #FFCA00;
+    border-color: #FFCA00;
+}
+
+.courses .option .l .btn-danger {
+    width: 100%;
+    color: #fff;
+    background-color: #E02D6E;
+    border-color: #E02D6E;
+}
+
+
+/*start footer*/
+
+.foot {
+    background: url('../img/bg/background.jpg') center center no-repeat;
+    background-size: cover;
+    padding: 40px 20px;
+    
+}
+
+.foot .copy {
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.foot .copy p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.pd0 {
+    padding: 0;
+}
+
+
+/*media query*/
+
+
+/* Large desktop */
+
+@media (min-width: 1200px) {}
+
+
+/* Portrait tablet to landscape and desktop */
+
+@media (min-width: 768px) and (max-width: 979px) {
+    .courses .option .r h3 {
+        font-size: 22px;
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+    .courses .option .r p {
+        color: #777777;
+        font-size: 14px;
+        margin-bottom: 0;
+    }
+    .courses .option .l {
+        float: left;
+        width: 30%;
+        padding: 35px 15px 0px 15px;
+    }
+    .courses .option .r {
+        float: right;
+        width: 70%;
+        padding: 10px 0;
+        margin-bottom: -18px;
+    }
+}
+
+
+/* Landscape phone to portrait tablet */
+
+@media (max-width: 767px) {}
+
+
+/* Landscape phones and down */
+
+@media (max-width: 480px) {
+    .courses .option .col-md-4 {
+        display: none
+    }
+    .courses .option .col-md-8 {
+        font-weight: bolder;
+        margin: 0;
+        background: url(../img/child/2.jpg) center center no-repeat;
+        background-size: cover;
+        padding: 20px 10px;
+        color: #000;
+        opacity: 0.75;
+        filter: alpha(opacity=75);
+        text-align: center;
+    }
+    .courses .option .r p {
+        color: #f8f9fa;
+        font-size: 18px;
+        margin-bottom: 0;
+    }
+    .courses .option .l {
+        margin-top: 30px;
+        float: left;
+        width: 30%;
+        padding: 70px 15px 0px 15px;
+    }
+}
